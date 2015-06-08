@@ -1,8 +1,6 @@
 
 
-Design by Tim O'Brien [t413.com](http://t413.com/)
+CFG4J is [open source](http://github.com/cfg4j/cfg4j)
 &mdash;
-[SinglePaged theme](https://github.com/t413/SinglePaged)
-&mdash;
-this site is [open source]({{ site.source_link }})
+uses SinglePaged [theme](https://github.com/t413/SinglePaged)
 
