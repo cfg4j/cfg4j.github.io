@@ -15,9 +15,9 @@ highlighter: pygments
 
 
 ### content configuration ###
-title:       "cfg4j - web service-oriented configuration library for Java"
-keywords:    "cfg4j, java, configuration, soa, web service, config, git, consul, zookeper, mysql, yaml, properties"
-description: "cfg4j - web service-oriented configuration library for Java"
+title:       "cfg4j - configuration library for Java distributed apps"
+keywords:    "cfg4j, jvm, java, configuration, soa, web service, config, git, consul, zookeper, mysql, yaml, properties"
+description: "cfg4j - configuration library for Java distributed apps"
 source_link: "https://github.com/cfg4j/cfg4j"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
