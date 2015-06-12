@@ -1,7 +1,7 @@
 ---
 title: "installation"
-bg: orange
-color: darkgray
+bg: darkgray
+color: orange
 fa-icon: toggle-on
 ---
 
