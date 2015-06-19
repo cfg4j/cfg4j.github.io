@@ -6,6 +6,7 @@ fa-icon: toggle-on
 ---
 
 * Gradle
+
 {% highlight text linenos=table %}
 repositories {
     mavenCentral()
@@ -18,6 +19,7 @@ dependencies {
 {% endhighlight %}
 
 * Maven
+
 {% highlight text linenos=table %}
 <dependencies>
   <dependency>
