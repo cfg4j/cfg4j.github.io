@@ -7,6 +7,11 @@ fa-icon: toggle-on
 
 * Gradle
 {% highlight text linenos=table %}
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
 dependencies {
   compile group: "org.cfg4j", name:"cfg4j", version: "3.3.1"
 }
