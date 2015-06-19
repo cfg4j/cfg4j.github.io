@@ -8,7 +8,7 @@ fa-icon: toggle-on
 * Gradle
 {% highlight text linenos=table %}
 dependencies {
-  compile group: "org.cfg4j", name:"cfg4j", version: "3.3.0"
+  compile group: "org.cfg4j", name:"cfg4j", version: "3.3.1"
 }
 {% endhighlight %}
 
@@ -18,7 +18,7 @@ dependencies {
   <dependency>
     <groupId>org.cfg4j</groupId>
     <artifactId>cfg4j</artifactId>
-    <version>3.3.0</version>
+    <version>3.3.1</version>
   </dependency>
 </dependencies>
 {% endhighlight %}
