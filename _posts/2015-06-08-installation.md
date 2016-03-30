@@ -3,6 +3,7 @@ title: "installation"
 bg: darkgray
 color: orange
 fa-icon: toggle-on
+permalink: /installation.html
 ---
 You can start using **cfg4j** in your app by simply including it as a dependency. It consists of **cfg4j-core** module (required) and
 a number of plugins (e.g. *cfg4j-consul*, *cfg4j-git*) which add support for additional configuration sources. Below is the configuration
