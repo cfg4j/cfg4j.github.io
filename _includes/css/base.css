@@ -266,15 +266,21 @@
   /* #Syntax highlighting
   ================================================== */
 
-
-.highlighttable {
+.highlight {
   color: #f8f8f2;
   table-layout: fixed;
   white-space: nowrap;
   width:90%;
 }
 
-.highlighttable pre, .highlighttable code { display:block; margin:0; padding:0; background: none; overflow:auto; word-wrap: normal; }
+.highlight pre, .highlight code {
+	display: block;
+	margin: 0;
+	padding: 0;
+	background: none;
+	overflow: auto;
+	word-wrap: normal;
+}
 
 .highlight, .linenodiv {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQIHWPQ1dU1BgABzQC7XXMTYQAAAABJRU5ErkJggg==);
@@ -282,11 +288,16 @@
   padding: 10px;
   margin-bottom:20px;
 }
-.linenodiv, .lineno { color: #ccc; }
 
-td.linenos { width: 40px; }
+.gutter, .lineno {
+	color: #ccc;
+}
 
-.linenodiv {
+td.gl {
+	width: 40px;
+}
+
+.gutter {
   border-right: none;
   padding: 10px;
   text-align: right;
