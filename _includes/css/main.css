@@ -262,7 +262,7 @@ nav ul li:hover, nav ul li.active {
 
 
 /* ----- fork on github banner ----- */
-#forkongithub a {
+#forkongithub #socialicons {
   color:#fff;
   text-decoration:none;
   font-family:arial,sans-serif;
@@ -274,11 +274,16 @@ nav ul li:hover, nav ul li.active {
   transition:.5s;
   padding:5px 40px;
 }
-#forkongithub a::before, #forkongithub a::after {
+
+#forkongithub #socialicons::before, #forkongithub #socialicons::after {
   content:""; width:100%; display:block; position:absolute;
   top:1px; left:0; height:1px; background:#fff;
 }
-#forkongithub a::after { bottom:1px; top:auto; }
+
+#forkongithub #socialicons::after {
+  bottom: 1px;
+  top: auto;
+}
 @media screen and (min-width:800px) {
   #forkongithub {
     position:fixed;
@@ -290,18 +295,33 @@ nav ul li:hover, nav ul li.active {
     height:200px;
     z-index:9999;
   }
-  #forkongithub a {
+
+  #forkongithub #socialicons {
     width:200px;
     position:absolute;
-    top:60px;
-    right:-60px;
+    top: 21px;
+    right: -50px;
     transform:rotate(45deg);
     -webkit-transform:rotate(45deg);
     -ms-transform:rotate(45deg);
     -moz-transform:rotate(45deg);
     -o-transform:rotate(45deg);
     box-shadow:4px 4px 10px rgba(0,0,0,0.8);
-    box-sizing: content-box;
+    /*box-sizing: content-box;*/
+    height: 52px;
+  }
+
+  #forkongithub #socialicons #github {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAx9JREFUaAXtmEuoTVEYx69XnokZeYWUR96JZKZwXSEijwE34ytTAyNzI49SF2VASVL3DsgzI4m8wog8yjVQ8kjefv/rrFpn9+119t5nn3PJ+up/1t7/tb7/961vrf06LS3RYgViBWIFYgViBf7hCvQrOfeR6M0F88BkMBrI3oGn4B64C96Dv8oWkM1h8AL8qgGNOQIWgj63cWTQCb6DWokn++VzDEijT2wVUV+CZGJ5z1+h0drsGewgYJGqp03uB3rtzZrEBgKlJVIvv6nRk5hBgA/eBH5yrGvgAvjq8bUmorEXgXxVfTf+I8czQUNsAKrXgQum9qEXaQ7Hp4BumQ9ANzhZQVeFU99poFuts/sc+Jo3OFes0m0zin4gHZ83ooyF62/w4tSXtHMQSd2tyUH1nqsit4xAl+oVxl9bKTmBO3ClrsIiI4iCagsNBEVNvskt5CazOIuotdSW32qLhNsHdDstavKVhmVtFlmU013GVca12lJl2U2EnK5rM23PLCugZZ5iZHrF4IpSlw1HvQwOMvgqKssERuAxqsrrz0mPwRWl3hiOiqnYQcsyAa2AdaEOCSrn67S00uJWKWeZwBc8hKRNShJ1nFtaiqkndtCyTOATCm8NlSUGV5SytBRTrxal2FlU3N3Bb5eVoL40RVtP6NKsAyU/cXd8G77mhRbIYjh91hNe+nsCfrm7puLxDbjE/fYa/HSQ1+RzFfha7lgPuGl5BWuN14ubAmgi28FuoD0qTu1xsBHMAoNB0sTNBnrnPwGcr0vab7voL910obkg2jpjwHKPc316EbO2lTj5uXGhVtdFQ+woqi6we5XY63Hq6whE1qo5/7S2M+Bfd5eejo+8JNZXFPW2ugu0gaEVzmpWQqYlLv4JcP8lWf6lcPqsfA0U8DmYD7LaCgamTaCHPl0/TTF9EuqfNiXzGZwB+8EB4H8uclplaSvwjFF5ClElWvRkPI66WyQrujYg2GqM74abEPBpeNdOIjwGbiLrAhHXeOO035v2X1Agp96uYfxuAQfBxF7G/lGlD4FtQD7RYgViBWIFYgViBf7vCvwG4u1PwbjxxpUAAAAASUVORK5CYII=) no-repeat left center;
+    padding: 16px 24px 24px 24px;
+    height: 48px;
+    display: inline;
+  }
+
+  #forkongithub #socialicons #twitter {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAmtJREFUaAXtl81LFlEUhy0tsU+htI0QQkLUpnAVRAYlCi5CbBMVRFT7giDoLxApw1oFgrSqdVDapkLRRX6sjCAIFxJBUdjXou/nB+/EZWDmfrwzrwX3wMPcmXvOub973vvO3FtXFy1WIFYgViBWIFYgViBWILgC9cGR4YFthHbANvgK3+C/sKOofASf4Df8giUYAk0msc00ToH5LOmr6tpF9I3ADJeJk+gsFuk7CdfgNdyFwm2YjBIw6Jm5vxKXJT79fAr/LbATCl3iE4aQMdr6qW3WiMMLSIvMun+H7wg8hQuwFgozrV9z4AXuuyzZD6RizPi89i1L3qDumxlixni+LyPjGZ7nCU33/cD/Skauqh8fyhGjgcfhPOwGLR3ZcUiLzLt/g3+DAsuyOyTOE6C+7/AStOQeg83f7F/GfwMUbvozDUAn+IoyBdraz8lf6B+XfH/tCa3P8ApsQkL7H5Lby3xme5/MG6HdawQ/Z73ZSrNWMr+F0Oq6xHWXpr6S+BjXnyVNQluITZVxSr1oUzYH2oy5VNXV53qI6pC9RhMDLYFed7ugCNOW+iy8LyKZLYeWkWtVXf30la+pjTKaqzibnz5e22uqnsHWw22wiXPp7621eHO8I5WJPAuczEUz2Wq1dzDwvYAJXF0twRq3AbQv0qvvA7gslcTnC/7noBBb45BFPgehB7aCKr4X9oCv6aR1CeZ9A6v11xfyNMxCUkmf6zRxJ8ClYLi5W0jC/aTvg8Ogw0sL6K2UmD5KOtvqTDAJD2AGSrGQCZhCdLDXBJphHUj8CmgCHyFarECsQKxArECsQKxArMC/XIE/lu+BB9HR5m4AAAAASUVORK5CYII=) no-repeat left center;
+    padding: 16px 24px 24px 16px;
+    display: inline;
   }
 }
 
