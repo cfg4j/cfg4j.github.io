@@ -16,7 +16,7 @@ widget2:
   title: "Documentation"
   url: 'http://phlow.github.io/feeling-responsive/info/'
   image: widget-1-302x182.jpg
-  text: 'Here you can find all sorts of documentation for »<em>cfg4j</em>«.<br/>0. Quick start<br/>1. <a href="">User&#39;s guide</a><br/>2. <a href="">Developer&#39;s guide</a><br/>3. <a href="">Javadoc</a><br/>4. Stack overflow<br/>5. Plugins </br>6. Customers<br/>'
+  text: 'Here you can find all sorts of documentation for »<em>cfg4j</em>«.<br/>0. Getting started<br/>1. <a href="">User&#39;s guide</a><br/>2. <a href="">Developer&#39;s guide</a><br/>3. <a href="">Javadoc</a><br/>4. Stack overflow<br/>5. Plugins </br>6. Customers<br/>'
 widget3:
   title: "Source code & Examples"
   url: 'https://github.com/Phlow/feeling-responsive'
