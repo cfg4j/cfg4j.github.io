@@ -1,0 +1,46 @@
+- title: Home
+  url: "/"
+  side: left
+
+- title: Getting Started
+  url: "/getting-started/"
+  side: left
+
+- title: Documentation
+  url: "/getting-started/"
+  side: left
+  dropdown:
+  - title: "Getting Started"
+    url: "/getting-started/"
+  - title: "User's guide"
+    url: "/user-guide/"
+  - title: "Javadoc"
+    url: "/javadoc/"
+  - title: "Stack overflow"
+    url: "/javadoc/"
+  - title: "Plugins"
+    url: "/plugins/"
+  - title: "Stack overflow"
+    url: "/customers/"
+  - title: "Releases"
+    url: "/releases/"
+  - title: "Examples"
+    url: "/releases/"
+
+- title: Blog
+  url: "/blog/"
+  side: left
+  dropdown:
+  - title: "Blog"
+    url: "/blog/"
+  - title: "Archive"
+    url: "/blog/archive/"
+
+
+- title: "Search"
+  url: "/search/"
+  side: right
+
+- title: "GitHub"
+  url: "https://github.com/cfg4j"
+  side: right
