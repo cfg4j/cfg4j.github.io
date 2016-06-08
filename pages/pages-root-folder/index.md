@@ -8,15 +8,15 @@ layout: frontpage
 header:
   image_fullwidth: header_unsplash_12.jpg
 widget1:
-  title: "Announcements & Blog"
+  title: "»<em>cfg4j</em>« features"
   url: 'http://phlow.github.io/feeling-responsive/blog/'
   image: widget-1-302x182.jpg
-  text: 'Here you can learn about latest »<em>cfg4j</em>« releases and articles that cover different ways of using the library.<br/>1. <a href="">Releases</a><br/>2. <a href="">Blog</a><br/>3. <a href="">Twitter</a><br/>'
+  text: '» Lightweight<br/>» Easy to use<br/>» Designed for distributed environments<br/>» Seamless integration with Spring, Guice and other DI containers<br/>» Modern design (extensible, heavily tested, well documented)<br/>» Open source (MIT license)'
 widget2:
   title: "Documentation"
   url: 'http://phlow.github.io/feeling-responsive/info/'
   image: widget-1-302x182.jpg
-  text: 'Here you can find all sorts of documentation for »<em>cfg4j</em>«.<br/>0. Getting started<br/>1. <a href="">User&#39;s guide</a><br/>2. <a href="">Developer&#39;s guide</a><br/>3. <a href="">Javadoc</a><br/>4. Stack overflow<br/>5. Plugins </br>6. Customers<br/>'
+  text: 'Here you can find all sorts of documentation for »<em>cfg4j</em>«.<br/>0. Getting started<br/>1. <a href="">User&#39;s guide</a><br/>2. <a href="">Developer&#39;s guide</a><br/>3. <a href="">Javadoc</a><br/>4. Stack overflow<br/>5. Plugins </br>6. Customers<br/>. <a href="">Releases</a><br/>2. <a href="">Blog</a><br/>3. <a href="">Twitter</a><br/>'
 widget3:
   title: "Source code & Examples"
   url: 'https://github.com/Phlow/feeling-responsive'
@@ -33,8 +33,8 @@ widget3:
 # To change colors see sass/_01_settings_colors.scss
 #
 callforaction:
-  url: https://twitter.com/norbert_potocki
-  text: Follow on Twitter for updates ›
+  url: https://github.com/cfg4j/cfg4j
+  text: Visit cfg4j @ github ›
   style: alert
 permalink: /index.html
 #
