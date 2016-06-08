@@ -1,0 +1,49 @@
+- name: GitHub
+  url: https://github.com/cfg4j
+  class: icon-github
+  title: "cfg4j @ github"
+
+- name: Twitter
+  url: http://twitter.com/norbert_potocki
+  class: icon-twitter
+  title: "Follow cfg4j on Twitter"
+
+#- name: YouTube
+#  url: http://www.youtube.com/
+#  class: icon-youtube
+#  title: ""
+
+#- name: Mixcloud
+#  url: http://www.mixcloud.com/
+#  class: icon-cloud
+#  title: ""
+
+#- name: Google+
+#  url: https://plus.google.com/u/0/
+#  class: icon-googleplus
+#  title: ""
+
+# - name: Facebook
+#   url: http://www.facebook.com/
+#   class: icon-facebook
+#   title: ""
+
+# - name: Soundcloud
+#   url: http://soundcloud.com/
+#   class: icon-soundcloud
+#   title: ""
+
+# - name: Instagram
+#   url: http://instagram.com/
+#   class: icon-instagram
+#   title: ""
+
+# - name: Pinterest
+#   url: http://www.pinterest.com/
+#   class: icon-pinterest
+#   title: ""
+
+# - name: Xing
+#   url: https://www.xing.com/profile/
+#   class: icon-xing
+#   title: Xing Profil

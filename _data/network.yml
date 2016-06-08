@@ -1,0 +1,9 @@
+- menu_name: "More resources"
+
+- name: "cfg4j @ github"
+  url: "https://github.com/cfg4j"
+  title: "cfg4j @ github"
+
+- name: "Thoughts on software architecture"
+  url: "http://potocki.io"
+  title: "Thoughts on software architecture"
