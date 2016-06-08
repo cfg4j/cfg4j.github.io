@@ -1,0 +1,76 @@
+---
+layout: page
+---
+
+<div itemprop="articleSection">
+  <h2 id="changes">Changes</h2>
+  {{ content }}
+
+  <h2 id="artifacts">{{ page.release.version }} artifacts</h2>
+  <ul>
+    <li><a href="https://github.com/cfg4j/cfg4j/releases/tag/v.{{ page.release.version }}">GitHub release</a></li>
+    <li><a href="/user-guide/">Documentation</a></li>
+    <li>Javadoc
+      <ul>
+        <li><a href="http://www.javadoc.io/doc/org.cfg4j/cfg4j-core/{{ page.release.version }}">cfg4j-core</a></li>
+        <li><a href="http://www.javadoc.io/doc/org.cfg4j/cfg4j-consul/{{ page.release.version }}">cfg4j-consul</a></li>
+        <li><a href="http://www.javadoc.io/doc/org.cfg4j/cfg4j-git/{{ page.release.version }}">cfg4j-git</a></li>
+      </ul>
+    </li>
+    <li>Maven central artifacts
+      <ul>
+        <li><a href="http://search.maven.org/#artifactdetails%7Corg.cfg4j%7Ccfg4j-core%7C{{ page.release.version }}%7Cjar">cfg4j-core</a>
+        </li>
+        <li><a
+            href="http://search.maven.org/#artifactdetails%7Corg.cfg4j%7Ccfg4j-consul%7C{{ page.release.version }}%7Cjar">cfg4j-consul</a>
+        </li>
+        <li><a href="http://search.maven.org/#artifactdetails%7Corg.cfg4j%7Ccfg4j-git%7C{{ page.release.version }}%7Cjar">cfg4j-git</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <h2 id="installation">Installation</h2>
+
+  <h3 id="gradle">Gradle</h3>
+
+  <figure class="highlight"><pre><code class="language-text" data-lang="text">dependencies {
+  compile group: "org.cfg4j", name:"cfg4j-core", version: "{{ page.release.version }}"
+  
+  // Optional plug-ins
+  
+  // Consul integration
+  compile group: "org.cfg4j", name:"cfg4j-consul", version: "{{ page.release.version }}"
+  
+  // Git integration
+  compile group: "org.cfg4j", name:"cfg4j-git", version: "{{ page.release.version }}"
+}</code></pre>
+  </figure>
+
+  <h3 id="maven">Maven</h3>
+
+  <figure class="highlight"><pre><code class="language-text" data-lang="text">&lt;dependencies&gt;
+  &lt;dependency&gt;
+    &lt;groupId&gt;org.cfg4j&lt;/groupId&gt;
+    &lt;artifactId&gt;cfg4j-core&lt;/artifactId&gt;
+    &lt;version&gt;{{ page.release.version }}&lt;/version&gt;
+  &lt;/dependency&gt;
+  
+  &lt;!-- Optional plug-ins --&gt;
+  
+  &lt;!-- Consul integration --&gt;
+  &lt;dependency&gt; 
+    &lt;groupId&gt;org.cfg4j&lt;/groupId&gt;
+    &lt;artifactId&gt;cfg4j-consul&lt;/artifactId&gt;
+    &lt;version&gt;{{ page.release.version }}&lt;/version&gt;
+  &lt;/dependency&gt;
+  
+  &lt;!-- Git integration --&gt;
+  &lt;dependency&gt;
+    &lt;groupId&gt;org.cfg4j&lt;/groupId&gt;
+    &lt;artifactId&gt;cfg4j-git&lt;/artifactId&gt;
+    &lt;version&gt;{{ page.release.version }}&lt;/version&gt;
+  &lt;/dependency&gt;
+&lt;/dependencies&gt;</code></pre>
+  </figure>
+
+</div>
