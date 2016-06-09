@@ -6,11 +6,13 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: header_unsplash_12.jpg
+  image: "cfg4-header.png"
+  background-color: "#7E7E7E"
+  
 widget1:
   title: "»<em>cfg4j</em>« features"
   url: 'http://phlow.github.io/feeling-responsive/blog/'
-  image: widget-1-302x182.jpg
+  image: cfg4j.png
   text: '» Lightweight<br/>» Easy to use<br/>» Designed for distributed environments<br/>» Seamless integration with Spring, Guice and other DI containers<br/>» Modern design (extensible, heavily tested, well documented)<br/>» Open source (MIT license)'
 widget2:
   title: "Documentation"
@@ -34,7 +36,7 @@ widget3:
 #
 callforaction:
   url: https://github.com/cfg4j/cfg4j
-  text: Visit cfg4j @ github ›
+  text: Star cfg4j @ github ›
   style: alert
 permalink: /index.html
 #
