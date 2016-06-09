@@ -14,7 +14,7 @@ title: '»cfg4j« is a modern configuration library for distributed apps written
 title_short: '»cfg4j« config for Java'
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: '»cfg4j« is a modern configuration library for distributed apps written in Java.'
+#slogan: ''
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
 description: '»cfg4j« is a modern configuration library for distributed apps written in Java.'
