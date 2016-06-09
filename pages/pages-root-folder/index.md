@@ -10,19 +10,60 @@ header:
   background-color: "#7E7E7E"
   
 widget1:
-  title: "»<em>cfg4j</em>« features"
+  title: 'Latest release: <a href="http://localhost:4000/releases/release_4_4_0/">4.4.0</a>'
   image: widget-features.jpg
-  text: '» Lightweight<br/>» Easy to use<br/>» Designed for distributed environments<br/>» Seamless integration with Spring, Guice and other DI containers<br/>» Modern design (extensible, heavily tested, well documented)<br/>» Open source (MIT license)'
+  text: '<ul>
+  <li>Lightweight</li>
+  <li>Easy to use</li>
+  <li>Seamless integration with Spring, Guice and other DI containers</li>
+  <li>Designed for distributed environments
+  <ul>
+    <li>support for multiple environments [test, preprod, prod]</li>
+    <li>caching</li>
+    <li>multi-source support with fallback, merge and other strategies</li>
+  </ul>
+  </li>
+  <li>Supports popular configuration stores
+  <ul>
+    <li>Git repository (article)</li>
+    <li>Consul (article)</li>
+    <li>Files</li>
+    <li>System variables</li>
+    <li><a href="">more..</a></li>
+  </ul>
+  <li>Supports multiple data formats
+  <ul>
+    <li>YAML</li>
+    <li>JSON</li>
+    <li>Java properties</li>
+  </ul>
+  </li>
+  </li>
+  <li>Modern design (extensible, heavily tested, well documented)</li>
+  <li>Open source (MIT license)</li>
+  </ul>'
 widget2:
-  title: "Documentation"
+  title: '»<em>cfg4j</em>« documentation'
   url: 'http://localhost:4000/user-guide/'
   image: widget-docs.jpg
-  text: 'Here you can find all sorts of documentation for »<em>cfg4j</em>«.<br/>0. Getting started<br/>1. <a href="">User&#39;s guide</a><br/>2. <a href="">Developer&#39;s guide</a><br/>3. <a href="">Javadoc</a><br/>4. Stack overflow<br/>5. Plugins </br>6. Customers<br/>. <a href="">Releases</a><br/>2. <a href="">Blog</a><br/>3. <a href="">Twitter</a><br/>'
+  text: '<ul>
+    <li><a href="">User&#39;s guide</a></li>
+    <li>Extensions</li>
+    <li><a href="">Releases</a></li>
+    <li><a href="">Examples</a></li>
+    <li><a href="">Javadoc</a></li>
+  </ul>'
 widget3:
-  title: "Source code & Examples"
+  title: 'Source code'
   url: 'http://localhost:4000/examples/'
   image: widget-code.jpg
-  text: 'Here you can find all sorts of examples on using »<em>cfg4j</em>«.<br/>1. <a href="">Source (GitHub)</a><br/>2. <a href="">Sample apps (GitHub)</a><br/>3. <a href="">Artifacts (Maven Central)</a><br/>'
+  text: '<ul>
+  <li><a href="https://github.com/cfg4j/cfg4j">Source (GitHub)</a></li>
+  <li><a href="https://github.com/cfg4j/cfg4j-sample-apps">Sample apps (GitHub)</a></li>
+  <li><a href="https://github.com/cfg4j/cfg4j-pusher">cfg4j-pusher (GitHub)</a></li>
+  <li><a href="https://github.com/cfg4j/cfg4j-git-sample-config">Sample git configuration (GitHub)</a></li>
+  <li><a href="http://search.maven.org/#search%7Cga%7C1%7Ccfg4j">Artifacts (Maven Central)</a></li>
+  </ul>'
 #
 # Use the call for action to show a button on the frontpage
 #
