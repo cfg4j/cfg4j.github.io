@@ -11,18 +11,17 @@ header:
   
 widget1:
   title: "»<em>cfg4j</em>« features"
-  url: 'http://phlow.github.io/feeling-responsive/blog/'
-  image: cfg4j.png
+  image: widget-features.jpg
   text: '» Lightweight<br/>» Easy to use<br/>» Designed for distributed environments<br/>» Seamless integration with Spring, Guice and other DI containers<br/>» Modern design (extensible, heavily tested, well documented)<br/>» Open source (MIT license)'
 widget2:
   title: "Documentation"
-  url: 'http://phlow.github.io/feeling-responsive/info/'
-  image: widget-1-302x182.jpg
+  url: 'http://localhost:4000/user-guide/'
+  image: widget-docs.jpg
   text: 'Here you can find all sorts of documentation for »<em>cfg4j</em>«.<br/>0. Getting started<br/>1. <a href="">User&#39;s guide</a><br/>2. <a href="">Developer&#39;s guide</a><br/>3. <a href="">Javadoc</a><br/>4. Stack overflow<br/>5. Plugins </br>6. Customers<br/>. <a href="">Releases</a><br/>2. <a href="">Blog</a><br/>3. <a href="">Twitter</a><br/>'
 widget3:
   title: "Source code & Examples"
-  url: 'https://github.com/Phlow/feeling-responsive'
-  image: widget-github-303x182.jpg
+  url: 'http://localhost:4000/examples/'
+  image: widget-code.jpg
   text: 'Here you can find all sorts of examples on using »<em>cfg4j</em>«.<br/>1. <a href="">Source (GitHub)</a><br/>2. <a href="">Sample apps (GitHub)</a><br/>3. <a href="">Artifacts (Maven Central)</a><br/>'
 #
 # Use the call for action to show a button on the frontpage
