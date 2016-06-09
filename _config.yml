@@ -20,7 +20,7 @@ title_short: '»cfg4j«'
 description: '»cfg4j« is a modern configuration library for distributed apps written in Java.'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
-credits: '<p>Created with &hearts; by <a href="http://potocki.io/">Norbert Potocki</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a> theme.</p>'
+credits: 'Created with &hearts; by <a href="http://potocki.io/">Norbert Potocki</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a> theme.'
 
 # Main author of the website
 # See > authors.yml
