@@ -24,11 +24,15 @@
   - title: "Archive"
     url: "/blog/archive/"
 
-
 - title: "Search"
   url: "/search/"
-  side: right
+  side: left
 
-- title: "GitHub"
+
+- title: "cfg4j @ GitHub"
   url: "https://github.com/cfg4j"
-  side: right
+  side: left
+
+- title: "cfg4j @twitter"
+  url: "https://twitter.com/norbert_potocki"
+  side: left
