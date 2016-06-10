@@ -10,7 +10,7 @@ header:
   background-color: "#7E7E7E"
   
 widget1:
-  title: 'Latest release: <a href="http://localhost:4000/releases/release_4_4_0/">4.4.0</a>'
+  title: 'Latest release: <a href="http://www.cfg4j.org/releases/release_4_4_0/">4.4.0</a>'
   image: widget-features.jpg
   text: '<ul>
   <li>Lightweight</li>
@@ -44,7 +44,7 @@ widget1:
   </ul>'
 widget2:
   title: '»<em>cfg4j</em>« documentation'
-  url: 'http://localhost:4000/user-guide/'
+  url: 'http://www.cfg4j.org/releases/latest/#users-guide'
   image: widget-docs.jpg
   text: '<ul>
     <li><a href="">User&#39;s guide</a></li>
@@ -55,7 +55,7 @@ widget2:
   </ul>'
 widget3:
   title: 'Source code'
-  url: 'http://localhost:4000/examples/'
+  url: 'http://www.cfg4j.org/examples/'
   image: widget-code.jpg
   text: '<ul>
   <li><a href="https://github.com/cfg4j/cfg4j">Source (GitHub)</a></li>
