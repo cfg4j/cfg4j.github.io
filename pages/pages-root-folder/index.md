@@ -10,7 +10,7 @@ header:
   background-color: "#7E7E7E"
   
 widget1:
-  title: 'Latest release: <a href="http://www.cfg4j.org/releases/release_4_4_0/">4.4.0</a>'
+  title: 'Latest release: <a href="/releases/release_4_4_0/">4.4.0</a>'
   image: widget-features.jpg
   text: '<ul>
   <li>Lightweight</li>
@@ -44,13 +44,13 @@ widget1:
   </ul>'
 widget2:
   title: '»<em>cfg4j</em>« documentation'
-  url: 'http://www.cfg4j.org/releases/latest/#users-guide'
+  url: '/releases/latest/#users-guide'
   image: widget-docs.jpg
   text: '<ul>
-    <li><a href="">User&#39;s guide</a></li>
-    <li>Extensions</li>
-    <li><a href="">Releases</a></li>
-    <li><a href="">Examples</a></li>
+    <li><a href="/releases/latest/#users-guide">User&#39;s guide</a></li>
+    <li><a href="/releases/latest/#extensions">Extensions</a></li>
+    <li><a href="/releases/">Releases</a></li>
+    <li><a href="/examples">Examples</a></li>
     <li><a href="">Javadoc</a></li>
   </ul>'
 widget3:
