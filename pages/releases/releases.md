@@ -9,7 +9,8 @@ title: "Released »cfg4j« versions"
 #
 show_meta: false
 header:
-   image_fullwidth: "header_unsplash_5.jpg"
+  image: "cfg4-header.png"
+  background-color: "#7E7E7E"
    
 permalink: "/releases/"
 breadcrumb: true

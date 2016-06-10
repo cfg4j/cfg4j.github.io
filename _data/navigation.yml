@@ -3,16 +3,16 @@
   side: left
 
 - title: Documentation
-  url: "/user-guide/"
+  url: "/documentation/latest/"
   side: left
   dropdown:
   - title: "User's guide"
-    url: "/user-guide/"
+    url: "/documentation/latest/#users-guide"
   - title: "Extensions"
-    url: "/extensions/"
-  - title: "Releases"
-    url: "/releases/"
+    url: "/documentation/latest/#extensions"
   - title: "Examples"
+    url: "/documentation/examples/"
+  - title: "Releases"
     url: "/releases/"
 
 - title: Blog
