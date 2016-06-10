@@ -1,0 +1,38 @@
+- title: Home
+  url: "/"
+  side: left
+
+- title: Documentation
+  url: "/releases/latest/"
+  side: left
+  dropdown:
+  - title: "User's guide"
+    url: "/releases/latest/#users-guide"
+  - title: "Extensions"
+    url: "/releases/latest/#extensions"
+  - title: "Examples"
+    url: "/releases/examples/"
+  - title: "Releases"
+    url: "/releases/"
+
+- title: Blog
+  url: "/blog/"
+  side: left
+  dropdown:
+  - title: "Blog"
+    url: "/blog/"
+  - title: "Archive"
+    url: "/blog/archive/"
+
+- title: "Search"
+  url: "/search/"
+  side: left
+
+
+- title: "cfg4j @ GitHub"
+  url: "https://github.com/cfg4j"
+  side: left
+
+- title: "cfg4j @twitter"
+  url: "https://twitter.com/norbert_potocki"
+  side: left
