@@ -1,7 +1,7 @@
 ---
 layout: page-fullwidth
 title: "»<em>cfg4j</em>« 4.4.x documentation"
-permalink: "/releases/4.4.x/"
+permalink: "/releases/latest/"
 header:
   image: "cfg4-header.png"
   background-color: "#7E7E7E"

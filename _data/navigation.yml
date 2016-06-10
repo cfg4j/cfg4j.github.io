@@ -3,15 +3,15 @@
   side: left
 
 - title: Documentation
-  url: "/documentation/latest/"
+  url: "/releases/latest/"
   side: left
   dropdown:
   - title: "User's guide"
-    url: "/documentation/latest/#users-guide"
+    url: "/releases/latest/#users-guide"
   - title: "Extensions"
-    url: "/documentation/latest/#extensions"
+    url: "/releases/latest/#extensions"
   - title: "Examples"
-    url: "/documentation/examples/"
+    url: "/releases/examples/"
   - title: "Releases"
     url: "/releases/"
 
