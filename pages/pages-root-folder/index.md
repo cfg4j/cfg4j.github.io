@@ -51,7 +51,7 @@ widget2:
     <li><a href="/releases/latest/#extensions">Extensions</a></li>
     <li><a href="/releases/">Releases</a></li>
     <li><a href="/examples">Examples</a></li>
-    <li><a href="">Javadoc</a></li>
+    <li><a href="http://www.javadoc.io/doc/org.cfg4j/cfg4j-core/4.4.0">Javadoc</a></li>
   </ul>'
 widget3:
   title: 'Source code'
