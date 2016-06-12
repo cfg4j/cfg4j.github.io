@@ -29,7 +29,7 @@ for Gradle and Maven that will get you started quickly. Once you add cfg4j depen
 
 * Gradle
 
-{% highlight text %}
+{% highlight java %}
 dependencies {
   compile group: "org.cfg4j", name:"cfg4j-core", version: "4.4.0"
   
