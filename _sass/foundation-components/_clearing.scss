@@ -1,6 +1,7 @@
 // Foundation by ZURB
 // foundation.zurb.com
 // Licensed under MIT Open Source
+
 @import "global";
 
 //
@@ -11,7 +12,7 @@ $include-html-clearing-classes: $include-html-classes !default;
 // We use these to set the background colors for parts of Clearing.
 $clearing-bg: $oil !default;
 $clearing-caption-bg: $clearing-bg !default;
-$clearing-carousel-bg: rgba(51, 51, 51, 0.8) !default;
+$clearing-carousel-bg: rgba(51,51,51,0.8) !default;
 $clearing-img-bg: $clearing-bg !default;
 
 // We use these to style the close button
@@ -31,7 +32,7 @@ $clearing-caption-padding: 10px 30px 20px !default;
 $clearing-active-img-height: 85% !default;
 $clearing-carousel-height: 120px !default;
 $clearing-carousel-thumb-width: 120px !default;
-$clearing-carousel-thumb-active-border: 1px solid rgb(255, 255, 255) !default;
+$clearing-carousel-thumb-active-border: 1px solid rgb(255,255,255) !default;
 
 @include exports("clearing") {
   @if $include-html-clearing-classes {
@@ -65,9 +66,7 @@ $clearing-carousel-thumb-active-border: 1px solid rgb(255, 255, 255) !default;
       #{$default-float}: 0;
       z-index: 998;
 
-      .clearing-close {
-        display: block;
-      }
+      .clearing-close { display: block; }
     }
 
     .clearing-container {
@@ -124,16 +123,11 @@ $clearing-carousel-thumb-active-border: 1px solid rgb(255, 255, 255) !default;
       display: none;
 
       &:hover,
-      &:focus {
-        color: $iron;
-      }
+      &:focus { color: $iron; }
     }
 
-    .clearing-assembled .clearing-container {
-      height: 100%;
-      .carousel > ul {
-        display: none;
-      }
+    .clearing-assembled .clearing-container { height: 100%;
+      .carousel > ul { display: none; }
     }
 
     // If you want to show a lightbox, but only have a single image come through as the thumbnail
@@ -159,9 +153,7 @@ $clearing-carousel-thumb-active-border: 1px solid rgb(255, 255, 255) !default;
           width: 0;
           height: 0;
           border: solid $clearing-arrow-size;
-          &:hover {
-            opacity: 0.8;
-          }
+          &:hover { opacity: 0.8; }
         }
       }
       .clearing-main-prev {
@@ -179,11 +171,9 @@ $clearing-carousel-thumb-active-border: 1px solid rgb(255, 255, 255) !default;
           border-#{$default-float}-color: $clearing-arrow-color;
         }
       }
-
+    
       .clearing-main-prev.disabled,
-      .clearing-main-next.disabled {
-        opacity: 0.3;
-      }
+      .clearing-main-next.disabled { opacity: 0.3; }
 
       .clearing-assembled .clearing-container {
 
@@ -227,16 +217,12 @@ $clearing-carousel-thumb-active-border: 1px solid rgb(255, 255, 255) !default;
               }
 
               img {
-                cursor: $cursor-pointer-value !important;
-                width: 100% !important;
+              cursor: $cursor-pointer-value !important;
+              width: 100% !important;
               }
 
-              &.visible {
-                opacity: 1;
-              }
-              &:hover {
-                opacity: 0.8;
-              }
+              &.visible { opacity: 1; }
+              &:hover { opacity: 0.8; }
             }
           }
         }

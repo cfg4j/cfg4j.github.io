@@ -1,6 +1,7 @@
 // Foundation by ZURB
 // foundation.zurb.com
 // Licensed under MIT Open Source
+
 @import "global";
 
 //
@@ -35,7 +36,8 @@ $joyride-tip-close-size: 24px !default;
 $joyride-tip-close-weight: $font-weight-normal !default;
 
 // When Joyride is filling the screen, we use this style for the bg
-$joyride-screenfill: rgba(0, 0, 0, 0.5) !default;
+$joyride-screenfill: rgba(0,0,0,0.5) !default;
+
 
 // We decided not to make a mixin for this because it relies on
 // predefined classes to work properly.
@@ -43,9 +45,7 @@ $joyride-screenfill: rgba(0, 0, 0, 0.5) !default;
   @if $include-html-joyride-classes {
 
     /* Foundation Joyride */
-    .joyride-list {
-      display: none;
-    }
+    .joyride-list { display: none; }
 
     /* Default styles for the container */
     .joyride-tip-guide {
@@ -62,9 +62,9 @@ $joyride-screenfill: rgba(0, 0, 0, 0.5) !default;
     }
 
     .lt-ie9 .joyride-tip-guide {
-      max-width: 800px;
+      max-width:800px;
       #{$default-float}: 50%;
-      margin-#{$default-float}: -400px;
+      margin-#{$default-float}:-400px;
     }
 
     .joyride-content-wrapper {
@@ -72,13 +72,9 @@ $joyride-screenfill: rgba(0, 0, 0, 0.5) !default;
 
       padding: $joyride-tip-padding;
 
-      .button {
-        margin-bottom: 0 !important;
-      }
+      .button { margin-bottom: 0 !important; }
 
-      .joyride-prev-tip {
-        margin-right: 10px;
-      }
+      .joyride-prev-tip { margin-right: 10px; }
     }
 
     /* Add a little css triangle pip, older browser just miss out on the fanciness of it */
@@ -108,12 +104,8 @@ $joyride-screenfill: rgba(0, 0, 0, 0.5) !default;
           bottom: -($joyride-tip-nub-size*2);
         }
 
-        &.right {
-          right: -($joyride-tip-nub-size*2);
-        }
-        &.left {
-          left: -($joyride-tip-nub-size*2);
-        }
+        &.right { right: -($joyride-tip-nub-size*2); }
+        &.left { left: -($joyride-tip-nub-size*2); }
       }
     }
 
@@ -161,9 +153,7 @@ $joyride-screenfill: rgba(0, 0, 0, 0.5) !default;
       line-height: .5 !important;
 
       &:hover,
-      &:focus {
-        color: $smoke !important;
-      }
+      &:focus { color: $smoke !important; }
     }
 
     .joyride-modal-bg {
@@ -196,11 +186,10 @@ $joyride-screenfill: rgba(0, 0, 0, 0.5) !default;
       left: 0;
     }
 
+
     /* Styles for screens that are at least 768px; */
     @media #{$small} {
-      .joyride-tip-guide {
-        width: $joyride-tip-default-width;
-        #{$default-float}: inherit;
+      .joyride-tip-guide { width: $joyride-tip-default-width; #{$default-float}: inherit;
         .joyride-nub {
           &.bottom {
             border-color: $joyride-tip-bg !important;
@@ -212,8 +201,7 @@ $joyride-screenfill: rgba(0, 0, 0, 0.5) !default;
           &.right {
             border-color: $joyride-tip-bg !important;
             border-top-color: transparent !important;
-            border-right-color: transparent !important;
-            border-bottom-color: transparent !important;
+            border-right-color: transparent !important; border-bottom-color: transparent !important;
             top: $joyride-tip-position-offset;
             left: auto;
             right: -($joyride-tip-nub-size*2);

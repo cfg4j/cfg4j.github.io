@@ -1,6 +1,7 @@
 // Foundation by ZURB
 // foundation.zurb.com
 // Licensed under MIT Open Source
+
 @import "global";
 
 //
@@ -48,6 +49,7 @@ $progress-meter-alert-color: $alert-color !default;
   display: block;
 }
 
+
 @include exports("progress-bar") {
   @if $include-html-media-classes {
 
@@ -59,28 +61,16 @@ $progress-meter-alert-color: $alert-color !default;
       .meter {
         @include progress-meter;
       }
-      &.secondary .meter {
-        @include progress-meter($bg: $progress-meter-secondary-color);
-      }
-      &.success .meter {
-        @include progress-meter($bg: $progress-meter-success-color);
-      }
-      &.alert .meter {
-        @include progress-meter($bg: $progress-meter-alert-color);
+      &.secondary .meter { @include progress-meter($bg:$progress-meter-secondary-color); }
+      &.success .meter { @include progress-meter($bg:$progress-meter-success-color); }
+      &.alert .meter { @include progress-meter($bg:$progress-meter-alert-color); }
+
+      &.radius { @include radius($progress-bar-border-radius);
+        .meter { @include radius($progress-bar-border-radius - 1); }
       }
 
-      &.radius {
-        @include radius($progress-bar-border-radius);
-        .meter {
-          @include radius($progress-bar-border-radius - 1);
-        }
-      }
-
-      &.round {
-        @include radius(1000px);
-        .meter {
-          @include radius(999px);
-        }
+      &.round { @include radius(1000px);
+        .meter { @include radius(999px); }
       }
 
     }

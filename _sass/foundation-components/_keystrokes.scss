@@ -1,6 +1,7 @@
 // Foundation by ZURB
 // foundation.zurb.com
 // Licensed under MIT Open Source
+
 @import "global";
 
 //
@@ -38,11 +39,8 @@ $keystroke-radius: $global-radius !default;
   border-color: scale-color($bg, $lightness: $keystroke-function-factor);
 
   // We adjust the font color based on the brightness of the background.
-  @if $bg-lightness > 70% {
-    color: $keystroke-font-color;
-  } @else {
-    color: $keystroke-font-color-alt;
-  }
+  @if $bg-lightness > 70% { color: $keystroke-font-color; }
+  @else { color: $keystroke-font-color-alt; }
 
   border-style: $keystroke-border-style;
   border-width: $keystroke-border-width;
@@ -53,7 +51,7 @@ $keystroke-radius: $global-radius !default;
 }
 
 @include exports("keystroke") {
-  @if $include-html-keystroke-classes {
+  @if $include-html-keystroke-classes  {
     .keystroke,
     kbd {
       @include keystroke;
