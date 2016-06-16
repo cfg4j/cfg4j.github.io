@@ -1,6 +1,7 @@
 // Foundation by ZURB
 // foundation.zurb.com
 // Licensed under MIT Open Source
+
 @import "global";
 
 //
@@ -64,21 +65,14 @@ $range-slider-disabled-opacity: 0.7 !default;
     height: $range-slider-vertical-bar-height;
   }
 }
-
 @mixin range-slider-bar-style(
   $bg: true,
   $radius: false,
   $round: false,
   $disabled: false) {
-  @if $bg == true {
-    background: $range-slider-bar-bg-color;
-  }
-  @if $radius == true {
-    @include radius($range-slider-radius);
-  }
-  @if $round == true {
-    @include radius($range-slider-round);
-  }
+  @if $bg == true { background: $range-slider-bar-bg-color; }
+  @if $radius == true { @include radius($range-slider-radius); }
+  @if $round == true { @include radius($range-slider-round); }
   @if $disabled == true {
     cursor: $cursor-default-value;
     opacity: $range-slider-disabled-opacity;
@@ -104,23 +98,16 @@ $range-slider-disabled-opacity: 0.7 !default;
 
   // This removes the 300ms touch delay on Windows 8
   -ms-touch-action: manipulation;
-  touch-action: manipulation;
+      touch-action: manipulation;
 }
-
 @mixin range-slider-handle-style(
   $bg: true,
   $radius: false,
   $round: false,
   $disabled: false) {
-  @if $bg == true {
-    background: $range-slider-handle-bg-color;
-  }
-  @if $radius == true {
-    @include radius($range-slider-radius);
-  }
-  @if $round == true {
-    @include radius($range-slider-round);
-  }
+  @if $bg == true { background: $range-slider-handle-bg-color; }
+  @if $radius == true { @include radius($range-slider-radius); }
+  @if $round == true { @include radius($range-slider-round); }
   @if $disabled == true {
     cursor: $cursor-default-value;
     opacity: $range-slider-disabled-opacity;
@@ -129,7 +116,6 @@ $range-slider-disabled-opacity: 0.7 !default;
     background: $range-slider-handle-bg-hover-color;
   }
 }
-
 @mixin range-slider-handle() {
   @include range-slider-handle-base;
   @include range-slider-handle-style;
@@ -140,7 +126,7 @@ $range-slider-disabled-opacity: 0.7 !default;
   @if $include-html-range-slider-classes {
     .range-slider {
       @include range-slider-bar-base;
-      @include range-slider-bar-style($bg: true, $radius: false);
+      @include range-slider-bar-style($bg:true, $radius:false);
       &.vertical-range {
         @include range-slider-bar-base($vertical: true);
         .range-slider-handle {
@@ -156,22 +142,16 @@ $range-slider-disabled-opacity: 0.7 !default;
         }
       }
       &.radius {
-        @include range-slider-bar-style($radius: true);
-        .range-slider-handle {
-          @include range-slider-handle-style($radius: true);
-        }
+        @include range-slider-bar-style($radius:true);
+        .range-slider-handle { @include range-slider-handle-style($radius: true); }
       }
       &.round {
-        @include range-slider-bar-style($round: true);
-        .range-slider-handle {
-          @include range-slider-handle-style($round: true);
-        }
+        @include range-slider-bar-style($round:true);
+        .range-slider-handle { @include range-slider-handle-style($round: true); }
       }
       &.disabled, &[disabled] {
-        @include range-slider-bar-style($disabled: true);
-        .range-slider-handle {
-          @include range-slider-handle-style($disabled: true);
-        }
+        @include range-slider-bar-style($disabled:true);
+        .range-slider-handle { @include range-slider-handle-style($disabled: true); }
       }
     }
     .range-slider-active-segment {
@@ -182,7 +162,7 @@ $range-slider-disabled-opacity: 0.7 !default;
     }
     .range-slider-handle {
       @include range-slider-handle-base;
-      @include range-slider-handle-style($bg: true, $radius: false);
+      @include range-slider-handle-style($bg:true, $radius: false);
     }
   }
 }

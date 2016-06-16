@@ -1,6 +1,7 @@
 // Foundation by ZURB
 // foundation.zurb.com
 // Licensed under MIT Open Source
+
 @import "global";
 
 //
@@ -22,9 +23,7 @@ $magellan-padding: 10px !default;
 
       .sub-nav {
         margin-bottom: 0;
-        dd {
-          margin-bottom: 0;
-        }
+        dd { margin-bottom: 0; }
         a {
           line-height: 1.8em;
         }

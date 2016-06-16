@@ -1,6 +1,7 @@
 // Foundation by ZURB
 // foundation.zurb.com
 // Licensed under MIT Open Source
+
 @import "global";
 
 //
@@ -69,12 +70,8 @@ $f-dropdown-radius: $global-radius !default;
   margin-#{$default-float}: 0;
   outline: none;
 
-  > *:first-child {
-    margin-top: 0;
-  }
-  > *:last-child {
-    margin-bottom: 0;
-  }
+  > *:first-child { margin-top: 0; }
+  > *:last-child { margin-bottom: 0; }
 
   @if $content == list {
     width: 100%;
@@ -84,7 +81,8 @@ $f-dropdown-radius: $global-radius !default;
     border: $f-dropdown-border-style $f-dropdown-border-width $f-dropdown-border-color;
     font-size: $f-dropdown-font-size;
     z-index: 89;
-  } @else if $content == content {
+  }
+  @else if $content == content {
     padding: $f-dropdown-content-padding;
     width: 100%;
     height: $f-dropdown-height;
@@ -192,11 +190,8 @@ $f-dropdown-radius: $global-radius !default;
 
   }
 
-  @if $max-width {
-    max-width: $max-width;
-  } @else {
-    max-width: $f-dropdown-max-width;
-  }
+  @if $max-width { max-width: $max-width; }
+  @else { max-width: $f-dropdown-max-width; }
 
 }
 
@@ -212,13 +207,9 @@ $f-dropdown-radius: $global-radius !default;
   margin: 0;
 
   &:hover,
-  &:focus {
-    background: $f-dropdown-list-hover-bg;
-  }
+  &:focus { background: $f-dropdown-list-hover-bg; }
 
-  &.radius {
-    @include radius($f-dropdown-radius);
-  }
+  &.radius { @include radius($f-dropdown-radius); }
 
   a {
     display: block;
@@ -247,34 +238,22 @@ $f-dropdown-radius: $global-radius !default;
       }
       // max-width: none;
 
-      li {
-        @include dropdown-style;
-      }
+      li { @include dropdown-style; }
 
       // You can also put custom content in these dropdowns
-      &.content {
-        @include dropdown-container(content, $triangle: false);
-      }
+      &.content { @include dropdown-container(content, $triangle:false); }
 
       // Sizes
-      &.tiny {
-        max-width: 200px;
-      }
-      &.small {
-        max-width: 300px;
-      }
-      &.medium {
-        max-width: 500px;
-      }
-      &.large {
-        max-width: 800px;
-      }
-      &.mega {
-        width: 100% !important;
-        max-width: 100% !important;
+      &.tiny    { max-width: 200px; }
+      &.small   { max-width: 300px; }
+      &.medium  { max-width: 500px; }
+      &.large   { max-width: 800px; }
+      &.mega    {
+        width:100%!important;
+        max-width:100%!important;
 
-        &.open {
-          left: 0 !important;
+        &.open{
+          left:0!important;
         }
       }
     }

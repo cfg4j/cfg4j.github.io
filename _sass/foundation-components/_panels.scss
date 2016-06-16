@@ -1,6 +1,7 @@
 // Foundation by ZURB
 // foundation.zurb.com
 // Licensed under MIT Open Source
+
 @import "global";
 
 //
@@ -47,39 +48,26 @@ $callout-panel-link-color-hover: scale-color($callout-panel-link-color, $lightne
     padding: $padding;
 
     background: $bg;
-    @if $bg-lightness >= 50% {
-      color: $panel-font-color;
-    } @else {
-      color: $panel-font-color-alt;
-    }
+    @if $bg-lightness >= 50% { color: $panel-font-color; }
+    @else { color: $panel-font-color-alt; }
 
     // Respect the padding, fool.
-    & > :first-child {
-      margin-top: 0;
-    }
-    & > :last-child {
-      margin-bottom: 0;
-    }
+    &>:first-child { margin-top: 0; }
+    &>:last-child { margin-bottom: 0; }
 
     @if $adjust {
       // We set the font color based on the darkness of the bg.
-      @if $bg-lightness >= 50% {
-        h1, h2, h3, h4, h5, h6, p, li, dl {
-          color: $panel-font-color;
-        }
-      } @else {
-        h1, h2, h3, h4, h5, h6, p, li, dl {
-          color: $panel-font-color-alt;
-        }
+      @if $bg-lightness >= 50% { 
+        h1,h2,h3,h4,h5,h6,p,li,dl { color: $panel-font-color; }
+      }
+      @else { 
+        h1,h2,h3,h4,h5,h6,p,li,dl { color: $panel-font-color-alt; }
       }
 
       // reset header line-heights for panels
-      h1, h2, h3, h4, h5, h6 {
-        line-height: 1;
-        margin-bottom: rem-calc(20) / 2;
-        &.subheader {
-          line-height: 1.4;
-        }
+      h1,h2,h3,h4,h5,h6 {
+        line-height: 1; margin-bottom: rem-calc(20) / 2;
+        &.subheader { line-height: 1.4; }
       }
     }
   }
@@ -89,8 +77,7 @@ $callout-panel-link-color-hover: scale-color($callout-panel-link-color, $lightne
   @if $include-html-panel-classes {
 
     /* Panels */
-    .panel {
-      @include panel;
+    .panel { @include panel;
 
       &.callout {
         @include panel(scale-color($primary-color, $lightness: 94%));
