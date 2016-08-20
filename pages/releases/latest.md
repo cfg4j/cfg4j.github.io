@@ -359,7 +359,7 @@ return new ConfigurationProviderBuilder()
 -------------------------
 
 ### Git
-*  Use **remote** or **local** git repository that reloades configuration every 5 seconds. Also see [this sample app](https://github.com/cfg4j/cfg4j-sample-apps/tree/master/git-simple).
+*  Use **remote** or **local** git repository that reloads configuration every 5 seconds. Also see [this sample app](https://github.com/cfg4j/cfg4j-sample-apps/tree/master/git-simple).
 
 {% highlight java %}
   // Use Git repository as configuration store
