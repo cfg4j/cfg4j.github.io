@@ -10,7 +10,7 @@ header:
   background-color: "#7E7E7E"
   
 widget1:
-  title: 'Latest release: <a href="/releases/release_4_4_0/">4.4.0</a>'
+  title: 'Latest release: <a href="/releases/release_4_4_1/">4.4.1</a>'
   image: widget-features.jpg
   text: '<ul>
   <li>Lightweight</li>
