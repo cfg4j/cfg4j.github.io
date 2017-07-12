@@ -40,7 +40,7 @@ widget1:
   </li>
   </li>
   <li>Modern design (extensible, heavily tested, well documented)</li>
-  <li>Open source (MIT license)</li>
+  <li>Open source (Apache License 2.0)</li>
   </ul>'
 widget2:
   title: '»<em>cfg4j</em>« documentation'
