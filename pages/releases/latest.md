@@ -143,7 +143,7 @@ Obviously, you need your configuration to be stored somewhere before you can acc
 files (remote git repository, local files, classpath resources) or a relational database. If you're unsure what the best practices are,
 you can consult [this article]().
 
-Once you have your configuration in place, create a ```ConfigurationSource`` object that will fetch it. Here's an example using Consul K-V.
+Once you have your configuration in place, create a ```ConfigurationSource``` object that will fetch it. Here's an example using Consul K-V.
 
 {% highlight java %}
 ConfigurationSource source = new ConsulConfigurationSourceBuilder().build();
